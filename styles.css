@@ -1,0 +1,79 @@
+:root {
+  --background: #c73;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 20px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background);
+  height: 100vh;
+}
+
+#quote-box {
+  background-color: #fff;
+  color: var(--background);
+  padding: 30px;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 600px;
+}
+#quotation {
+  font-size: 36px;
+}
+#text {
+  margin-bottom: 5px;
+  font-size: 28px;
+  font-weight: bold;
+}
+#author {
+  font-size: 12px;
+  text-align: right;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+#link-box {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.img {
+  width: 30px;
+}
+
+#new-quote {
+  color: #fff;
+  background-color: var(--background);
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#tweet-quote {
+  cursor: pointer;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
